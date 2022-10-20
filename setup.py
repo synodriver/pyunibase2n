@@ -10,7 +10,7 @@ ext_modules = [
               sources=["unibase2n/_b2n.pyx"],
               include_dirs=["."],
               library_dirs=["."],
-              extra_objects=["./libunibase.a"],
+              extra_objects=["./libunibase2n.a"],
               runtime_library_dirs=["."])]
 setup(
     name='go',
