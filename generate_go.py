@@ -35,7 +35,7 @@ func Encode{}Len(size int, out *int, offset *int) {{
 
 //export Decode{}
 func Decode{}(inp []byte, out []byte) int {{
-	ret := unibase2n.{}.Encode(inp)
+	ret := unibase2n.{}.Decode(inp)
 	if len(out) < len(ret){{
 		return -1 // fail buffer too small
 	}}
@@ -54,10 +54,50 @@ func Decode{}Len(size ,offset int, out *int){{
 }}
 """
 # print(func_template)
-all_funcs = ["Base8192", "Base4096", "Base512", "Base256", "BaseMath", "BaseTanWi", "Base128", "BaseDevanagari", "Base64", "Base64Gua", "BaseRune", "BaseMongolian", "BaseBox", "Base32", "BaseTibetan", "Base16", "BaseBuginese", "Base8Gua"]
+all_funcs = [
+    "Base8192",
+    "Base4096",
+    "Base512",
+    "Base256",
+    "BaseMath",
+    "BaseTanWi",
+    "Base128",
+    "BaseDevanagari",
+    "Base64",
+    "Base64Gua",
+    "BaseRune",
+    "BaseMongolian",
+    "BaseBox",
+    "Base32",
+    "BaseTibetan",
+    "Base16",
+    "BaseBuginese",
+    "Base8Gua",
+]
 
 with open("unibase2n.go", "w") as f:
     f.write(header)
     for func in all_funcs:
-        f.write(func_template.format(func, func, func, func, func, func,func, func, func, func, func, func,func, func, func, func, func, func))
+        f.write(
+            func_template.format(
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+                func,
+            )
+        )
     f.write(tail)

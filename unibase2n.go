@@ -28,7 +28,7 @@ func EncodeBase8192Len(size int, out *int, offset *int) {
 
 //export DecodeBase8192
 func DecodeBase8192(inp []byte, out []byte) int {
-	ret := unibase2n.Base8192.Encode(inp)
+	ret := unibase2n.Base8192.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -69,7 +69,7 @@ func EncodeBase4096Len(size int, out *int, offset *int) {
 
 //export DecodeBase4096
 func DecodeBase4096(inp []byte, out []byte) int {
-	ret := unibase2n.Base4096.Encode(inp)
+	ret := unibase2n.Base4096.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -110,7 +110,7 @@ func EncodeBase512Len(size int, out *int, offset *int) {
 
 //export DecodeBase512
 func DecodeBase512(inp []byte, out []byte) int {
-	ret := unibase2n.Base512.Encode(inp)
+	ret := unibase2n.Base512.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -151,7 +151,7 @@ func EncodeBase256Len(size int, out *int, offset *int) {
 
 //export DecodeBase256
 func DecodeBase256(inp []byte, out []byte) int {
-	ret := unibase2n.Base256.Encode(inp)
+	ret := unibase2n.Base256.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -192,7 +192,7 @@ func EncodeBaseMathLen(size int, out *int, offset *int) {
 
 //export DecodeBaseMath
 func DecodeBaseMath(inp []byte, out []byte) int {
-	ret := unibase2n.BaseMath.Encode(inp)
+	ret := unibase2n.BaseMath.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -233,7 +233,7 @@ func EncodeBaseTanWiLen(size int, out *int, offset *int) {
 
 //export DecodeBaseTanWi
 func DecodeBaseTanWi(inp []byte, out []byte) int {
-	ret := unibase2n.BaseTanWi.Encode(inp)
+	ret := unibase2n.BaseTanWi.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -274,7 +274,7 @@ func EncodeBase128Len(size int, out *int, offset *int) {
 
 //export DecodeBase128
 func DecodeBase128(inp []byte, out []byte) int {
-	ret := unibase2n.Base128.Encode(inp)
+	ret := unibase2n.Base128.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -315,7 +315,7 @@ func EncodeBaseDevanagariLen(size int, out *int, offset *int) {
 
 //export DecodeBaseDevanagari
 func DecodeBaseDevanagari(inp []byte, out []byte) int {
-	ret := unibase2n.BaseDevanagari.Encode(inp)
+	ret := unibase2n.BaseDevanagari.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -356,7 +356,7 @@ func EncodeBase64Len(size int, out *int, offset *int) {
 
 //export DecodeBase64
 func DecodeBase64(inp []byte, out []byte) int {
-	ret := unibase2n.Base64.Encode(inp)
+	ret := unibase2n.Base64.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -397,7 +397,7 @@ func EncodeBase64GuaLen(size int, out *int, offset *int) {
 
 //export DecodeBase64Gua
 func DecodeBase64Gua(inp []byte, out []byte) int {
-	ret := unibase2n.Base64Gua.Encode(inp)
+	ret := unibase2n.Base64Gua.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -438,7 +438,7 @@ func EncodeBaseRuneLen(size int, out *int, offset *int) {
 
 //export DecodeBaseRune
 func DecodeBaseRune(inp []byte, out []byte) int {
-	ret := unibase2n.BaseRune.Encode(inp)
+	ret := unibase2n.BaseRune.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -479,7 +479,7 @@ func EncodeBaseMongolianLen(size int, out *int, offset *int) {
 
 //export DecodeBaseMongolian
 func DecodeBaseMongolian(inp []byte, out []byte) int {
-	ret := unibase2n.BaseMongolian.Encode(inp)
+	ret := unibase2n.BaseMongolian.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -520,7 +520,7 @@ func EncodeBaseBoxLen(size int, out *int, offset *int) {
 
 //export DecodeBaseBox
 func DecodeBaseBox(inp []byte, out []byte) int {
-	ret := unibase2n.BaseBox.Encode(inp)
+	ret := unibase2n.BaseBox.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -561,7 +561,7 @@ func EncodeBase32Len(size int, out *int, offset *int) {
 
 //export DecodeBase32
 func DecodeBase32(inp []byte, out []byte) int {
-	ret := unibase2n.Base32.Encode(inp)
+	ret := unibase2n.Base32.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -602,7 +602,7 @@ func EncodeBaseTibetanLen(size int, out *int, offset *int) {
 
 //export DecodeBaseTibetan
 func DecodeBaseTibetan(inp []byte, out []byte) int {
-	ret := unibase2n.BaseTibetan.Encode(inp)
+	ret := unibase2n.BaseTibetan.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -643,7 +643,7 @@ func EncodeBase16Len(size int, out *int, offset *int) {
 
 //export DecodeBase16
 func DecodeBase16(inp []byte, out []byte) int {
-	ret := unibase2n.Base16.Encode(inp)
+	ret := unibase2n.Base16.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -684,7 +684,7 @@ func EncodeBaseBugineseLen(size int, out *int, offset *int) {
 
 //export DecodeBaseBuginese
 func DecodeBaseBuginese(inp []byte, out []byte) int {
-	ret := unibase2n.BaseBuginese.Encode(inp)
+	ret := unibase2n.BaseBuginese.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
@@ -725,7 +725,7 @@ func EncodeBase8GuaLen(size int, out *int, offset *int) {
 
 //export DecodeBase8Gua
 func DecodeBase8Gua(inp []byte, out []byte) int {
-	ret := unibase2n.Base8Gua.Encode(inp)
+	ret := unibase2n.Base8Gua.Decode(inp)
 	if len(out) < len(ret){
 		return -1 // fail buffer too small
 	}
