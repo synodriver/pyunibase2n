@@ -1,4 +1,8 @@
 github.com/fumiama/unibase2n v0.0.0-20221003115227-e7db987de949 h1:VAzR8aoS2SCEBmRF9rqCPyXgXoP8mZ1viNL4mLWUg0Q=
 github.com/fumiama/unibase2n v0.0.0-20221003115227-e7db987de949/go.mod h1:lEaZsT4FRSqcjnQ5q8y+mkenkzR/r1D3BJmfdp0vqDg=
+github.com/fumiama/unibase2n v0.0.0-20221020155353-02876e777430 h1:XL4SnagpaVHYybnnj6whQxmt8Ps9/kaG6sCNn4X1GGA=
+github.com/fumiama/unibase2n v0.0.0-20221020155353-02876e777430/go.mod h1:lEaZsT4FRSqcjnQ5q8y+mkenkzR/r1D3BJmfdp0vqDg=
 golang.org/x/text v0.3.7 h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=
 golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=
+golang.org/x/text v0.4.0 h1:BrVqGRd7+k1DiOgtnFvAkoQEWQvBc25ouMJM6429SFg=
+golang.org/x/text v0.4.0/go.mod h1:mrYo+phRRbMaCq/xk9113O4dZlRixOauAjOtrjsXDZ8=
